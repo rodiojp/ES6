@@ -1,4 +1,4 @@
-console.log(`${'-'.repeat(30)} Array Every`);
+console.log(`${'-'.repeat(30)} Array.Every`);
 
 const numbers = [1, 3, 5];
 console.log('Numbers :');
@@ -9,7 +9,7 @@ const isOdd = (x) => x % 2 === 1;
 const allNumbersAreOdd = numbers.every(isOdd);
 console.log(`Every Number in the Array is Odd: ${allNumbersAreOdd}`);
 
-console.log(`${'-'.repeat(30)}`);
+console.log(`${'-'.repeat(30)} Array.Some`);
 
 const words = [
   'Hello',

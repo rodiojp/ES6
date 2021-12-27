@@ -15,5 +15,6 @@ module.exports = {
     ],
     rules: {
         'immutable/no-mutation': 2,
+        'linebreak-style': 0,
     },
 };

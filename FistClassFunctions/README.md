@@ -145,4 +145,6 @@ person.name = 'John';
 6:1  error  No object mutation allowed  immutable/no-mutation
 ```
 
+### Run the code:
 
+- `npx babel-node example.js`

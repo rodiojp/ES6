@@ -19,3 +19,5 @@ const double = (x) => x * 2;
 const doubledNumbers = numbers.map(double);
 console.log('Doubled Numbers:');
 console.log(doubledNumbers);
+console.log('Numbers :');
+console.log(numbers);

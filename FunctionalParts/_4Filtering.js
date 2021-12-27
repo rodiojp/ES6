@@ -20,11 +20,11 @@ const words = [
 console.log('Words :');
 console.log(words);
 
-const isLongerThanFive = (s) => s.length > 5;
+const isLongerThan = x => (s) => s.length > x;
+const minLength = 5;
+const filteredWords = words.filter(isLongerThan(minLength));
 
-const filteredWords = words.filter(isLongerThanFive);
-
-console.log('Filtered Words Longer than 5 Characters:');
+console.log(`Filtered Words Longer than ${minLength} Characters:`);
 console.log(filteredWords);
 
 
